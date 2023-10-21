@@ -15,7 +15,7 @@ const router = createBrowserRouter([
   {
     path: "*",
     element: (
-      <div>
+      <div className="container">
         <h1 className="error-page">
           Oops! It looks like you have stumbled upon a 404 error page.
         </h1>

@@ -8,7 +8,7 @@ function ErrorTest() {
   }
   return (
     <div>
-      <h2>Please press the button to test the error boundaries</h2>
+      <h2>Please press the button to test the error boundary</h2>
       <button onClick={() => setHasError(true)}>ErrorBoundary test</button>
     </div>
   );

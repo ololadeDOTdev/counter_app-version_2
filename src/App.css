@@ -98,8 +98,11 @@ p {
   margin-top: -12px;
 }
 .error-boundary {
-  font-size: 18px;
+  font-size: 24px;
   margin: 68px 12px;
+}
+.error-page {
+  margin-top: 1em;
 }
 .logo {
   height: 6em;
