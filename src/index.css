@@ -135,8 +135,11 @@ button:hover {
   }
   .App {
     width: 18em;
-    height: 40em;
-    padding: 0 24px;
+    height: 50em;
+    padding: 100px 24px;
     gap: 2.5em;
+  }
+  .heading {
+    margin-top: 12px;
   }
 }
