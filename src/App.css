@@ -12,7 +12,10 @@
   padding: 0;
   box-sizing: inherit;
 }
-
+body,
+html {
+  overflow-x: hidden;
+}
 body {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
