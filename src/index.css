@@ -128,14 +128,14 @@ button:hover {
 }
 @media (max-width: 28em) {
   .container {
-    margin-top: -12px;
+    margin-top: -16px;
   }
   .counter-header {
     font-size: 2.5em;
   }
   .App {
     width: 18em;
-    height: 43em;
+    height: 40em;
     padding: 0 24px;
     gap: 2.5em;
   }
