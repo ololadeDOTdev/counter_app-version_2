@@ -19,7 +19,9 @@ const router = createBrowserRouter([
         <h1 className="error-page">
           Oops! It looks like you have stumbled upon a 404 error page.
         </h1>
-        <h2>Do not worry, even the best explorers get off track sometimes🙂</h2>
+        <h2 className="error-page-2">
+          Do not worry, even the best explorers get off track sometimes🙂
+        </h2>
       </div>
     ),
   },

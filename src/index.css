@@ -76,20 +76,10 @@ button:hover {
   }
 }
 @media screen and (max-width: 682px) {
-  body {
-    font-family: "Nunito", sans-serif;
-    font-weight: 400;
-    min-width: auto;
-    height: 100vh;
-    color: #333;
-    background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
   .container {
     width: 25em;
     height: 40em;
+    padding: 0 24px;
   }
   .heading {
     font-size: 2.5em;
@@ -101,5 +91,47 @@ button:hover {
   }
   .error-page {
     font-size: 2.5em;
+  }
+}
+@media screen and (max-width: 470px) {
+  .container {
+    width: 20em;
+    height: 45em;
+    padding: 0 24px;
+  }
+  .App {
+    width: 22em;
+    height: 47em;
+    padding: 0 24px;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  p {
+    font-size: 20px;
+  }
+  h2 {
+    margin-bottom: 34px;
+  }
+  .counter-change {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+  }
+  .error-page {
+    font-size: 3em;
+  }
+  .error-page-2 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .container {
+    padding: 0 24px;
+  }
+  .App {
+    width: 15em;
+    height: 47em;
+    padding: 0 24px;
   }
 }
