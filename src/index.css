@@ -75,7 +75,7 @@ button:hover {
     background-color: #f9f9f9;
   }
 }
-@media screen and (max-width: 682px) {
+@media (max-width: 43em) {
   .container {
     width: 25em;
     height: 40em;
@@ -93,7 +93,8 @@ button:hover {
     font-size: 2.5em;
   }
 }
-@media screen and (max-width: 470px) {
+
+@media (max-width: 30em) {
   .container {
     width: 20em;
     height: 45em;
@@ -125,13 +126,18 @@ button:hover {
     font-size: 24px;
   }
 }
-@media screen and (max-width: 440px) {
+@media (max-width: 28em) {
   .container {
     padding: 0 24px;
   }
   .App {
-    width: 15em;
+    width: 1em;
     height: 47em;
-    padding: 0 24px;
+    padding: 0 6px;
+  }
+}
+@media (max-width: 20em) {
+  body {
+    min-width: 390px;
   }
 }
