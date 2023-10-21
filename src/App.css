@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  color: #333;
+  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  font-size: 20px;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+p {
+  margin-top: -14px;
+  margin-bottom: 4px;
+}
+
+.heading {
+  font-size: 3.5em;
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+.container {
+  position: relative;
+  width: 38em;
+  height: 30em;
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(200px);
+  filter: blur();
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.App {
+  width: 30em;
+  height: 33em;
+  gap: 3em;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.counter-header {
+  margin-top: 16px;
+}
+.counter-num {
+  background-color: #c7365f;
+  color: #fff;
+  display: inline;
+  padding: 16px 48px;
+  border-radius: 12px;
+}
+.counter-change {
+  border-top: 2px solid #555;
+  padding-top: 28px;
+  margin: -12px 0 -16px 0;
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  justify-content: center;
+  font-size: 20px;
+}
+.counter-btn {
+  background-color: #c7365f;
+  color: #fff;
+}
+#number {
+  text-align: center;
+  padding: 14px 0;
+  margin-bottom: -12px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #c7365f;
+  border-radius: 12px;
+  font-size: 18px;
+}
+.counter-click {
+  margin-bottom: -32px;
+}
+.counter-back {
+  margin-top: -12px;
+}
+.error-boundary {
+  font-size: 18px;
+  margin: 68px 12px;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
