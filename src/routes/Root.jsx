@@ -14,7 +14,7 @@ export default function Root() {
                 have it back in action faster than you can say bug spray🙂
               </h4>
               <div className="counter-back counter-back-1">
-                <Link to="/Counter">
+                <Link to="/counter">
                   <button>Go to Counter</button>
                 </Link>
               </div>
