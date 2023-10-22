@@ -106,8 +106,10 @@ p {
   margin: 68px 12px;
 }
 .error-page {
-  margin-top: 1em;
+  margin-top: 1.5em;
+  font-size: 2.5em;
 }
+
 .logo {
   height: 6em;
   padding: 1.5em;

@@ -10,8 +10,8 @@ export default function Root() {
           fallback={
             <div>
               <h4 className="error-boundary">
-                Oops! It seems one of our components took a coffee break ☕️. We
-                will have it back in action faster than you can say bug spray🙂
+                It seems one of our components took a coffee break ☕️. We will
+                have it back in action faster than you can say bug spray🙂
               </h4>
               <div className="counter-back counter-back-1">
                 <Link to="/Counter">
@@ -34,7 +34,7 @@ export default function Root() {
               Explore our 404 page for a surprise! Click this link to discover
             </h2>
 
-            <Link to="*">
+            <Link to="ufgdjfjbjbs">
               <p className="btn-link">404 Error Page</p>
             </Link>
 
