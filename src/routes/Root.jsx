@@ -8,10 +8,17 @@ export default function Root() {
       <div className="container">
         <ErrorBoundary
           fallback={
-            <h4 className="error-boundary">
-              Oops! It seems one of our components took a coffee break ☕️. We
-              will have it back in action faster than you can say bug spray🙂
-            </h4>
+            <div>
+              <h4 className="error-boundary">
+                Oops! It seems one of our components took a coffee break ☕️. We
+                will have it back in action faster than you can say bug spray🙂
+              </h4>
+              <div className="counter-back counter-back-1">
+                <Link to="/Counter">
+                  <button>Go to Counter</button>
+                </Link>
+              </div>
+            </div>
           }
         >
           <h1 className="heading">Enter the World of Counting</h1>
@@ -27,7 +34,7 @@ export default function Root() {
               Explore our 404 page for a surprise! Click this link to discover
             </h2>
 
-            <Link to="ihcsugcasycgsycgs">
+            <Link to="*">
               <p className="btn-link">404 Error Page</p>
             </Link>
 
